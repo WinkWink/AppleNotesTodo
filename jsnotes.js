@@ -31,5 +31,6 @@ for (var i = 0; i < dateArr.length; i++) {
 	document.write("<p>Gratitude Journal</p>");
 	document.write("<p>Cat Box</p>");
 	document.write("<p>Github</p>");
+	document.write("<p>Water Plants</p>");
 }
 
