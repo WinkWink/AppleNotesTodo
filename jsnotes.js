@@ -33,6 +33,7 @@ for (var i = 0; i < dateArr.length; i++) {
 	document.write("<p>Github</p>");
 	document.write("<p>Read cayare</p>");
 	document.write("<p>Journal</p>");
+	document.write("<p>Next Platform</p>");
 
 }
 
