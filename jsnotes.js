@@ -34,6 +34,8 @@ for (var i = 0; i < dateArr.length; i++) {
 	document.write("<p>Read cayare</p>");
 	document.write("<p>Journal</p>");
 	document.write("<p>Next Platform</p>");
+	document.write("<p>WW</p>");
+
 
 }
 
