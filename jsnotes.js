@@ -1,5 +1,5 @@
-var startDate = new Date("2020-10-13"); 
-var endDate = new Date("2020-11-31");
+var startDate = new Date("2020-12-01"); 
+var endDate = new Date("2020-12-31");
 
 
 var getDateArray = function(start, end){
@@ -26,15 +26,16 @@ var dateArr = getDateArray(startDate,endDate);
 document.write("<h1>To Do List</h1>");
 for (var i = 0; i < dateArr.length; i++) {
 	document.write("<h3 id='split'>" + dateArr[i] + "</h3>");
-	document.write("<p>Check in With Body</p>");
-	document.write("<p>Tech Ladies</p>");
-	document.write("<p>Gratitude Journal</p>");
-	document.write("<p>Cat Box</p>");
-	document.write("<p>Github</p>");
-	document.write("<p>Read cayare</p>");
-	document.write("<p>Journal</p>");
-	document.write("<p>Next Platform</p>");
-	document.write("<p>WW</p>");
+	document.write("Check in With Body<br>");
+	document.write("Tech Ladies<br>");
+	document.write("Gratitude Journal<br>");
+	document.write("Cat Box<br>");
+	document.write("Github<br>");
+	document.write("Read come as you are<br>");
+	document.write("Journal<br>");
+	document.write("Next Platform//Javascript<br>");
+	document.write("WW<br>");
+	document.write("You are Capable<br>");
 
 
 }
