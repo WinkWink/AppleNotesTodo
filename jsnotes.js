@@ -1,5 +1,5 @@
-var startDate = new Date("2021-3-01"); 
-var endDate = new Date("2021-3-31");
+var startDate = new Date("2021-4-01"); 
+var endDate = new Date("2021-4-31");
 
 
 var getDateArray = function(start, end){
@@ -23,7 +23,7 @@ var dateArr = getDateArray(startDate,endDate);
 
 //output 
 
-document.write("<h1>To Do List March</h1>");
+document.write("<h1>To Do List April</h1>");
 for (var i = 0; i < dateArr.length; i++) {
 	document.write("<h3 id='split'>" + dateArr[i] + "</h3>");
 	document.write("Stretch<br>");
@@ -32,7 +32,7 @@ for (var i = 0; i < dateArr.length; i++) {
 	document.write("Cat Box<br>");
 	document.write("Take Meds<br>");
 	document.write("Read come as you are<br>");
-	document.write("Journal<br>");
+	document.write("Breathe<br>");
 	document.write("Work on book club<br>");
 
 }
