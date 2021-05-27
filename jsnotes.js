@@ -37,6 +37,7 @@ for (var i = 0; i < dateArr.length; i++) {
 	document.write("Tonk Box<br>");
 	document.write("React Practice<br>");
 	document.write("Exercise @ 530<br>");
+	document.write("dash<br>");
 
 
 	var trying = dateArr[i].toString();
