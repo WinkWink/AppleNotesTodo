@@ -1,5 +1,5 @@
-var startDate = new Date("2021-7-01"); 
-var endDate = new Date("2021-7-30");
+var startDate = new Date("2021-9-01"); 
+var endDate = new Date("2021-9-31");
 
 
 var getDateArray = function(start, end){
@@ -30,13 +30,14 @@ for (var i = 0; i < dateArr.length; i++) {
 	document.write("Smoothie + Coffee + Water<br>");
 	document.write("Take Meds<br>");
 	document.write("Noom<br>");
-	document.write("The Daily<br>");
+	document.write("Plumnetwors Check <br>");
+	document.write("Plumnetwors Summary <br>");
 	document.write("Tech Ladies Board<br>");
 	document.write("Gratitude Journal<br>");
+	document.write("JS practice<br>");
+	document.write("Skin Care - Teeth Whiten - Retainer<br>");
 	document.write("Cat Box<br>");
 	document.write("Tonk Box<br>");
-	document.write("Code<br>");
-	document.write("Exercise @ 6<br>");
 
 
 	var trying = dateArr[i].toString();
@@ -48,11 +49,8 @@ for (var i = 0; i < dateArr.length; i++) {
 	}else if(trying.includes("Thur")){
 		document.write("apply to jobs<br>");
 	}else if(trying.includes("Fri")){
-		document.write("dash<br>");
 	}else if(trying.includes("Sat")){
-		document.write("dash<br>");
 	}else if(trying.includes("Sun")){
-		document.write("dash<br>");
 	}
 
 }
